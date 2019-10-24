@@ -1,0 +1,171 @@
+<html lang="en-gb">
+
+<head>
+    <title></title>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" type="text/css">
+    <link href="bootstrap/js/bootstrap.js">
+    <link href="fontawesome-free-5.0.2/web-fonts-with-css/css/fontawesome.min.css" rel="stylesheet">
+    <link href="fontawesome-free-5.0.2/web-fonts-with-css/css/fontawesome-all.css" rel="stylesheet">
+
+    <script>
+        let i = 0; //start project
+        let images = [];
+        let time = 3000;
+
+
+        //images list
+        images[0] = 'images/cat1.jpg';
+        images[1] = 'images/cat2.jpg';
+        images[2] = 'images/dog.jpg';
+
+        //createImg
+
+        function changeImg() {
+            document.slide.src = images[i];
+
+            if (i < images.length - 1) {
+                i++;
+
+            } else {
+                i = 0;
+            }
+
+
+        }
+        setTimeout('changeImg();', time)
+        Window.onload('changeImg();');
+    </script>
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+    <div class="header">
+        <p><i class="fa fa-phone"></i> Phone number: 080-COMMUNITY-DEV<i class="fa fa-envelope"></i> Email: Info@communitydev.com</p>
+    </div>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class=" navbar-brand " href="# ">COMMUNITY DEV</a>
+
+            <ul class="nav nav-tabs ">
+
+
+
+                <li class="nav-item ">
+                    <a class="nav-link " href="home.html "> <i class="fa fa-home "></i>Home</a>
+                </li>
+                <li class="nav-item "><a class="nav-link " href="about.html "><i class="fa fa-lightbulb "></i> Start a project </a></li>
+                <li class="nav-item "><a class="nav-link " href="about.html "><i class="fa fa-lightbulb "></i> Donate </a></li>
+                <li class="nav-item "><a class="nav-link " href="about.html "><i class="fa fa-lightbulb "></i> Gallery </a></li>
+                <li class="nav-item "><a class="nav-link " href="# "><i class="fa fa-handshake "></i> About</a></li>
+                <li class="nav-item "><a class="nav-link " href="#contact "><i class="fa fa-phone "></i> Contact</a></li>
+                <form class="form-inline my-2 my-lg-0 ">
+                    <input class="form-control mr-sm-2 " type="search " placeholder="Search " aria-label="Search ">
+                    <button class="btn btn-outline-success my-2 my-sm-0 " type="submit ">Search</button>
+                </form>
+                <li class="nav-item "><a class="nav-link " href="acc.html "><i class="fa fa-user "></i> Login/sign-up</a></li>
+
+
+            </ul>
+    </div>
+
+    </n>
+    <div class="jumbotron ">
+        <h1>WELCOME TO COMMUNITY DEV.
+            <br>IMPROVING SOCIETAL HYGIENE</br>
+        </h1>
+    </div>
+
+    <img name="slide " width="400 " hieght="300 ">
+
+
+
+
+
+    <h1>Community projects</h1>
+    <div class="row ">
+        <div class="col ">
+            <img src="images/cat1.jpg " class="img-thumbnail ">
+            <h2>project 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum faucibus nulla id efficitur. Aenean interdum eleifend dapibus. Proin vel lorem nec diam luctus fringilla. Vivamus ut tempus turpis. Sed id ornare tortor. Praesent scelerisque
+                libero lectus, faucibus euismod mi aliquet et. Sed finibus, lorem eu porttitor venenatis, metus nisi feugiat nulla, ut vulputate mauris odio in sapien. Nullam laoreet urna turpis, et eleifend augue euismod rutrum</p>
+            <a href="# ">Read more...</a>
+        </div>
+        <div class="col ">
+            <img src="images/dog.jpg " class="img-thumbnail ">
+            <h2>project 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum faucibus nulla id efficitur. Aenean interdum eleifend dapibus. Proin vel lorem nec diam luctus fringilla. Vivamus ut tempus turpis. Sed id ornare tortor. Praesent scelerisque
+                libero lectus, faucibus euismod mi aliquet et. Sed finibus, lorem eu porttitor venenatis, metus nisi feugiat nulla, ut vulputate mauris odio in sapien. Nullam laoreet urna turpis, et eleifend augue euismod rutrum</p>
+            <a href="# ">Read more...</a>
+        </div>
+        <div class="col ">
+
+            <img src="images/cat1.jpg " class="img-thumbnail ">
+            <h2>project 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum faucibus nulla id efficitur. Aenean interdum eleifend dapibus. Proin vel lorem nec diam luctus fringilla. Vivamus ut tempus turpis. Sed id ornare tortor. Praesent scelerisque
+                libero lectus, faucibus euismod mi aliquet et. Sed finibus, lorem eu porttitor venenatis, metus nisi feugiat nulla, ut vulputate mauris odio in sapien. Nullam laoreet urna turpis, et eleifend augue euismod rutrum</p>
+            <a href="# ">Read more...</a>
+        </div>
+    </div>
+    </div>
+
+
+    <footer class="footer ">
+        <div class="row ">
+            <div class="col ">
+                <h3> Contact Address:</h3>
+                <p> 2 lemi avenue,olakitan,ipaja,lagos.
+                </p>
+            </div>
+
+            <div class="col " id="#Contact ">
+                <h3> Social media</h3>
+                <ul class="socialmedia ">
+                    <li>
+                        <a href="# "> <i class="fab fa-facebook "> Facebook</i></a>
+                    </li>
+                    <li>
+                        <a href="# "> <i class="fab fa-twitter "> Twitter</i></a>
+                    </li>
+                    <li>
+                        <a href="# "> <i class="fab fa-instagram "> Instagram</i></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="col ">
+                <ul>
+                    <li><a href="# "> Faqs</a></li>
+                    <li><a href="# ">Jobs</a></li>
+                    <li><a href="# ">Blog</a></li>
+
+                </ul>
+            </div>
+            <div class="col ">
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
